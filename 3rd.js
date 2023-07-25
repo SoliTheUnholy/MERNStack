@@ -1,10 +1,7 @@
-function amin(number) {
-    switch (number) {
-        case 10:
-            return "adad 10 hasr"
-        case 15:
-            return "adad 15 hast"
+function avg(a,b,c,d,e) {
+    if ((a+b+c+d+e)/5 < 12) {
+        return "Fail shod"
     }
-    return "Error"
+    return "Pass shod"
 }
-console.log(amin(+prompt("adad rsa vared konid")))
+console.log(avg(+prompt(), +prompt(), +prompt(), +prompt(), +prompt()))
